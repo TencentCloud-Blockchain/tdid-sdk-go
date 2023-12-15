@@ -3,15 +3,11 @@
 </p>
 <h1 align="center">TDID Tencent Cloud SDK DEMO for Go</h1>
 
-# 目录
-1. [简介](#简介)
-2. [安装](#获取安装)
-3. [快速开始](#快速开始)
 
 
 # 简介
 
-欢迎使用腾讯云TDID API接口DEMO用例。本示例使用腾讯云开发者工具套件（SDK），此 SDK 是云 API 3.0 平台的配套开发工具。
+欢迎使用腾讯云TDID API接口DEMO用例。本示例代码依赖腾讯云开发者工具套件（SDK），此 SDK 是云 API 3.0 平台的配套开发工具。
 源码地址：https://github.com/tencentcloud/tencentcloud-sdk-go
 
 # 获取安装
@@ -64,9 +60,7 @@ v1.0.170后可以按照产品下载，您只需下载基础包和对应的产品
 
 前往代码托管地址 [Github](https://github.com/tencentcloud/tencentcloud-sdk-go) 或者 [Gitee](https://gitee.com/tencentcloud/tencentcloud-sdk-go) 下载最新代码，解压后安装到 $GOPATH/src/github.com/tencentcloud 目录下。
 
-# 快速开始
-
-每个接口都有一个对应的 Request 结构和一个 Response 结构。例如DID标识注册接口 CreateTDidByHost 有对应的请求结构体 CreateTDidByHostRequest 和返回结构体 CreateTDidByHostResponse 。
+# Demo单元测试用例
 
 TDIDDemo目录下是完整的TDID API接口调用单元测试用例，业务可参考相关代码进行编码。
-
+TDIDDemo/tencentcloud目录下为tdid产品的tencentcloud-sdk源码，可以从tencentcloud-sdk-go仓库下载
